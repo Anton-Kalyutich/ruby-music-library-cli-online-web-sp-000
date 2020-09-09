@@ -21,6 +21,6 @@ class MusicLibraryController
   end
     
   def list_songs
-    all_songs = Song.all.sort_by
+    all_songs = Song.all.sort_by {|song| song.name}
   end
 end
