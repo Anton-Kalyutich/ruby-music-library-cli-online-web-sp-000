@@ -29,8 +29,8 @@ class Song
     @@all
   end
   
-  def self.all_by_artist_name
-    self.all
+  def self.all_by_artist_name(name)
+    self.all.select {|song| song.artist.name == name}
   end
   
   def save
