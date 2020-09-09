@@ -46,7 +46,7 @@ class MusicLibraryController
     input = gets.chomp
     songs = Song.all_by_artist_name(input}
     songs.each_with_index do |song, index|
-      puts "#{index+1}. "
+      puts "#{index+1}. #{song.name} - #{song.genre}"
     end
   end
   
