@@ -29,7 +29,7 @@ class Song
     @@all
   end
   
-  def songs_by_artist_name
+  def self.all_by_artist_name
     self.
   end
   
