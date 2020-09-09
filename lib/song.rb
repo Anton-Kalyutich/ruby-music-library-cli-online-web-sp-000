@@ -33,6 +33,10 @@ class Song
     self.all.select {|song| song.artist.name == name}
   end
   
+  def self.all_by_genre_name(name)
+    self.all.select {|song| song.artist.name == name}
+  end
+  
   def save
     self.class.all << self
   end
