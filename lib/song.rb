@@ -30,7 +30,7 @@ class Song
   end
   
   def self.all_by_artist_name
-    self.
+    self.all
   end
   
   def save
