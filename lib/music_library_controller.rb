@@ -34,4 +34,8 @@ class MusicLibraryController
     end
   end
   
+  def list_genres
+    
+  end
+  
 end
