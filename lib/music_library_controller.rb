@@ -65,7 +65,7 @@ class MusicLibraryController
     list_songs
     puts "Which song number would you like to play?"
     input = gets.chomp.to_i
-    if input >=1 && input <=
+    if input >=1 && input <= Song.all.length
   end
   
 end
