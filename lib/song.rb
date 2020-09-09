@@ -34,7 +34,7 @@ class Song
   end
   
   def self.all_by_genre_name(name)
-    self.all.select {|song| song.artist.name == name}
+    self.all.select {|song| song.genre.name == name}
   end
   
   def save
