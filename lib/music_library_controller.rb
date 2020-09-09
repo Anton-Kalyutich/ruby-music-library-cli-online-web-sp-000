@@ -25,6 +25,7 @@ class MusicLibraryController
     songs.each_with_index do |song, index|
       puts "#{index+1}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
     end
+    songs
   end
   
   def list_artists
