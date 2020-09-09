@@ -29,6 +29,10 @@ class Song
     @@all
   end
   
+  def songs_by_artist_name
+    self.
+  end
+  
   def save
     self.class.all << self
   end
